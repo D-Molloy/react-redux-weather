@@ -1,25 +1,21 @@
-# ReduxSimpleStarter
+# Five Day Weather Forecast
+## Single page React/Redux app with weather data from openweathermap.org API and maps via the Google Maps API
 
-Interested in learning [Redux](https://www.udemy.com/react-redux/)?
+![react-redux-weather](weather.png)
 
-### Getting Started
+## About
 
-There are two methods for getting started with this repo.
+ When you search for a city, the fetchWeather action makes an api call to openweathermap.org API via axios and then passes the request promise to the reducer.  The redux-promise npm package in the reducer pulls the weather data from the promise and updates the state with the new data.  This info is then passed to the WeatherList component and the necessary data is extracted in order to display the map for each city (via the Google Maps API in the google_map.js component) along with the upcoming weather data that is passed down to the chart.js component (charts are generated using the Sparklines npm package).
 
-#### Familiar with Git?
-Checkout this repo, install dependencies, then start the gulp process with the following:
+
+## Getting Started
+
+To use the app locally, follow these steps in GitBash/Terminal:
 
 ```
-> git clone https://github.com/StephenGrider/ReduxSimpleStarter.git
-> cd ReduxSimpleStarter
+> git clone https://github.com/D-Molloy/react-redux-weather.git
+> cd react-redux-weather
 > npm install
 > npm start
 ```
 
-#### Not Familiar with Git?
-Click [here](https://github.com/StephenGrider/ReactStarter/releases) then download the .zip file.  Extract the contents of the zip file, then open your terminal, change to the project directory, and:
-
-```
-> npm install
-> npm start
-```
