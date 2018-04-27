@@ -1,5 +1,6 @@
 # Five Day Weather Forecast
 ## Single page React/Redux app with weather data from openweathermap.org API and maps via the Google Maps API
+HTML / CSS / Bootstrap 4 / JavaScript / React / Redux / NPM / Openweathermap.org API / Google Maps API / Sparklines
 
 ![react-redux-weather](weather.png)
 
