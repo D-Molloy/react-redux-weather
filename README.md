@@ -17,5 +17,6 @@ To use the app locally, follow these steps in GitBash/Terminal:
 > cd react-redux-weather
 > npm install
 > npm start
+> If the app doesn't open automatically, visit http://localhost:8080/webpack-dev-server/
 ```
 
